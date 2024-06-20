@@ -1,0 +1,7 @@
+git clone https://github.com/username/repository.git
+cd repository
+mkdir -p css pages
+touch css/style.css pages/index.html
+git add .
+git commit -m "Create folder structure"
+git push origin branch-name
