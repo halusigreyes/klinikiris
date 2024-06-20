@@ -1,0 +1,7 @@
+git clone https://github.com/username/repository.git
+cd repository
+mv assets/* .
+rmdir assets
+git add .
+git commit -m "Fix folder structure"
+git push origin main
